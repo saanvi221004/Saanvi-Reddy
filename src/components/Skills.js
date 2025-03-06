@@ -3,12 +3,11 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -33,22 +32,23 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I specialize in web development, building responsive and high-performing websites using HTML, CSS, JavaScript, and React.<br></br> Alongside development, I have strong UI/UX design skills, leveraging Figma and Adobe XD to create intuitive and visually appealing interfaces.</p>
+                        <p>I specialize in web development, building responsive and high-performing websites using HTML, CSS, JavaScript, and React.<br></br> 
+                        Alongside development, I have strong UI/UX design skills, leveraging Figma and Adobe XD to create intuitive and visually appealing interfaces.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Problem Solving Icon" />
                                 <h5>Problem Solving</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Adaptability Icon" />
                                 <h5>Adaptability</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Communication Skills Icon" />
                                 <h5>Communication Skills</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Leadership Skills Icon" />
                                 <h5>Leadership Skills</h5>
                             </div>
                         </Carousel>
@@ -56,7 +56,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Decorative Background" />
     </section>
-  )
+  );
 }

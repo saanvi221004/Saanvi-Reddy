@@ -17,31 +17,37 @@ export const Projects = () => {
       title: "Flashcards App",
       description: "Design & Development",
       imgUrl: one,
+      altText: "Flashcards App Preview"
     },
     {
       title: "Lepre Tracker",
       description: "A carbon footprint tracker",
       imgUrl: two,
+      altText: "Lepre Tracker Preview"
     },
     {
       title: "Harmony",
       description: "A virtual musical instrument",
       imgUrl: three,
+      altText: "Harmony App Preview"
     },
     {
       title: "Unigine Squad",
       description: "A gaming website",
       imgUrl: four,
+      altText: "Unigine Squad Website Preview"
     },
     {
       title: "To-do List",
       description: "Design & Development",
       imgUrl: five,
+      altText: "To-do List App Preview"
     },
     {
       title: "Calculator",
       description: "Basic Java Program",
       imgUrl: six,
+      altText: "Calculator Program Preview"
     },
   ];
 
@@ -76,7 +82,7 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
-                                />
+                              />
                             )
                           })
                         }
@@ -95,7 +101,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="Decorative background" />
     </section>
-  )
-}
+  );
+};
