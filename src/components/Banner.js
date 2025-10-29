@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "UI/UX Designer" ];
+  const toRotate = [ "Software Developer", "AI Engineer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Saanvi Reddy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a passionate front-end Web developer and UI/UX designer who loves creating intuitive and engaging digital experiences. I combine design thinking with technical expertise to build visually compelling and highly functional products.</p>
+                <h1>{`Hi! I'm Saanvi Reddy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "AI Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Computer Science undergraduate passionate about developing intelligent and scalable systems. Experienced in AI, web development, and data analytics. I thrive on solving real-world challenges through clean code, collaboration, and continuous learning.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

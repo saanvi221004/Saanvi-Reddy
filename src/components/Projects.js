@@ -13,42 +13,39 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
-    {
-      title: "Flashcards App",
-      description: "Design & Development",
-      imgUrl: one,
-      altText: "Flashcards App Preview"
-    },
+    
     {
       title: "Lepre Tracker",
-      description: "A carbon footprint tracker",
+      description: "A carbon footprint tracker - React.js · Node.js · MongoDB · Chart.js",
       imgUrl: two,
       altText: "Lepre Tracker Preview"
-    },
-    {
-      title: "Harmony",
-      description: "A virtual musical instrument",
-      imgUrl: three,
-      altText: "Harmony App Preview"
-    },
+    },    
     {
       title: "Unigine Squad",
-      description: "A gaming website",
+      description: "A gaming website - HTML · CSS · JavaScript",
       imgUrl: four,
       altText: "Unigine Squad Website Preview"
     },
+    
     {
       title: "To-do List",
-      description: "Design & Development",
+      description: "Design & Development - React.js · CSS",
       imgUrl: five,
       altText: "To-do List App Preview"
     },
     {
-      title: "Calculator",
-      description: "Basic Java Program",
-      imgUrl: six,
-      altText: "Calculator Program Preview"
+      title: "Harmony",
+      description: "A virtual musical instrument - React.js · Tone.js · CSS",
+      imgUrl: three,
+      altText: "Harmony App Preview"
     },
+    {
+      title: "Flashcards App",
+      description: "Design & Development - React.js · CSS",
+      imgUrl: one,
+      altText: "Flashcards App Preview"
+    },
+    
   ];
 
   return (

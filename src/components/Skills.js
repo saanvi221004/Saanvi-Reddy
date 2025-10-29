@@ -32,8 +32,8 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I specialize in web development, building responsive and high-performing websites using HTML, CSS, JavaScript, and React.<br></br> 
-                        Alongside development, I have strong UI/UX design skills, leveraging Figma and Adobe XD to create intuitive and visually appealing interfaces.</p>
+                        <p>I am an aspiring Software Engineer with hands-on experience in AI, web technologies, and data analytics. <br></br> 
+                        I’m driven by curiosity, passionate about building intelligent systems, and constantly exploring how technology can solve real-world challenges. I value teamwork, continuous learning, and writing code that’s as elegant as it is efficient.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Problem Solving Icon" />
